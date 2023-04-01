@@ -1,0 +1,36 @@
+.homepage {
+  height: 100%;
+  position: absolute;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 1em;
+}
+.btn_container {
+  align-items: center;
+  padding: 1.4rem;
+}
+.logo_name {
+  color: #dd0c16;
+  font-size: 3rem;
+}
+.content {
+  width: 100%;
+  margin-top: 4.7em;
+  text-align: center;
+}
+.homepage_content {
+  color: white;
+  font-size: 3.7rem;
+}
+.content h2 {
+  color: white;
+  font-size: 2rem;
+}
