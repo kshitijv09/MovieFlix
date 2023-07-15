@@ -42,8 +42,9 @@ const Cards = (props) => {
                         <i className="fas fa-star" />
                       </span>
                     </div>
+
                     <div className="card__description">
-                      {movie ? movie.description.slice(0, 118) + "..." : ""}
+                      {movie ? movie.title + "..." : ""}
                     </div>
                   </div>
                 </div>
